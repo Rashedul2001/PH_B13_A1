@@ -29,7 +29,7 @@ nav ul li a{
     font-size: 16px;
     font-weight: 500;
 }
-nav button{
+nav button {
     padding: 12px 16px;
     color: #FFF;
     background-color: #469165;
@@ -38,5 +38,83 @@ nav button{
     font-size: 16px;
     font-weight: 600;
 }
+.btnCur{
+    cursor: pointer;
+}
+
+
+#heroSection{
+    background-image: url("../assets/hero-bg.png");
+    height: 1363px; 
+    background-repeat: no-repeat;
+    padding: 115px 120px ;
+}
+.heroContent{
+    text-align: center;
+    width: 100%;
+    max-width: 1360px;
+}
+.early{
+    background-color: #fff;
+    border-radius: 100px;
+    width: 230px;
+    height: 35px;
+    display: flex;
+    justify-self: center;
+    color: #30B868;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.heroContent h1{
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+}
+
+.white{
+    color: #FFF;
+}
+.green{
+    color: #30B868;
+}
+.heroText p{
+    color : #FFFFFF;
+
+}
+
+.heroButtons{
+    display: inline-flex;
+    gap:16px;
+}
+.btn1{
+    background-color: #30B868;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 4px;
+    width: 250px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn2{
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 12px 16px;
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+
 
 
