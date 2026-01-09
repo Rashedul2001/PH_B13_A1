@@ -41,18 +41,24 @@ nav button {
 .btnCur{
     cursor: pointer;
 }
-
-
 #heroSection{
     background-image: url("../assets/hero-bg.png");
-    height: 1363px; 
     background-repeat: no-repeat;
-    padding: 115px 120px ;
+    width: 100%;
+    max-height: 1600px;
+    height: 675px;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    justify-content: center ;
+    align-items: center;
 }
 .heroContent{
+    margin: 115px 120px 180px 120px;
     text-align: center;
     width: 100%;
     max-width: 1360px;
+
 }
 .early{
     background-color: #fff;
@@ -83,10 +89,14 @@ nav button {
 }
 .heroText p{
     color : #FFFFFF;
+    line-height: 24px;
+    font-size: 18px;
+    font-weight: 400;
 
 }
 
 .heroButtons{
+    margin-top: 32px;
     display: inline-flex;
     gap:16px;
 }
@@ -112,6 +122,148 @@ nav button {
     font-size: 16px;
     font-weight: 600;
 }
+
+/* #problemSection{
+    background-color: #30B868;
+
+} */
+#problemSection h1{
+    /* background-color: #222222; */
+    display: flex;
+    width: 1360px;
+    height: 116px;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 48px;
+    color: #001931;
+
+}
+#problemSection .note p{
+    /* background-color: blue; */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 1360px;
+    height: 20px;
+    text-align: center;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cardContainer{
+    /* background-color: yellow; */
+    margin-top: 44px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #234df2; */
+    height: 300px;
+    padding: 24px;
+    border-radius: 8px;
+    gap: 16px;
+}
+
+.card img{
+    background-color: orangered;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    padding: 15px;
+}
+.card h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    width: 275px;
+    /* height was not consistent for each card in the card title */
+    min-height: 30px;
+    color: #001931;
+}
+.card p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 275px;
+    height: 40px;
+    text-align: center;
+    color: #627382;
+}
+
+.solutionContent{
+    display: flex;
+    margin: 120px;
+    gap:60px;
+}
+.solutionContent img{
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+}
+.solutionText{
+    margin-top:102px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+}
+.solutionText h6{
+    height: 20px;
+    color: #30B868 ; 
+    font-weight: medium;
+    font-size: 16px;
+    line-height: 20px;
+}
+.solutionText h1{
+    height: 116px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+}
+div1{
+    height: 60px;
+}
+
+.div1 p{
+font-size: 16px;
+line-height: 20px;
+color: #627382;
+}
+#solutionSection .list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.list div{
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+
+}
+.list img{
+    width: 20px;
+    height: 20px;
+}
+
+
+.list p{
+    font-size: 16px;
+    font-weight: medium;
+    color: #001931;
+    height: 20px;
+    display: inline-flex;
+    align-items: center;
+}
+
 
 
 
