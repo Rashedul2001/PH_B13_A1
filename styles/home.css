@@ -2,33 +2,39 @@
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
-header{
-    background-color:#ffffff;
+
+header {
+    background-color: #ffffff;
     max-width: 1600px;
     width: 100%;
     height: 92px;
 }
-header nav{
+
+header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 16px 120px;
 }
-nav ul{
+
+nav ul {
     display: flex;
     list-style: none;
     gap: 32px;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     color: black;
     font-size: 16px;
     font-weight: 500;
 }
+
 nav button {
     padding: 12px 16px;
     color: #FFF;
@@ -38,10 +44,12 @@ nav button {
     font-size: 16px;
     font-weight: 600;
 }
-.btnCur{
+
+.btnCur {
     cursor: pointer;
 }
-#heroSection{
+
+#heroSection {
     background-image: url("../assets/hero-bg.png");
     background-repeat: no-repeat;
     width: 100%;
@@ -50,17 +58,19 @@ nav button {
     display: flex;
     background-size: cover;
     background-position: center;
-    justify-content: center ;
+    justify-content: center;
     align-items: center;
 }
-.heroContent{
+
+.heroContent {
     margin: 115px 120px 180px 120px;
     text-align: center;
     width: 100%;
     max-width: 1360px;
 
 }
-.early{
+
+.early {
     background-color: #fff;
     border-radius: 100px;
     width: 230px;
@@ -75,32 +85,36 @@ nav button {
     font-size: 16px;
     font-weight: 500;
 }
-.heroContent h1{
+
+.heroContent h1 {
     font-size: 72px;
     font-weight: 700;
     line-height: 84px;
 }
 
-.white{
+.white {
     color: #FFF;
 }
-.green{
+
+.green {
     color: #30B868;
 }
-.heroText p{
-    color : #FFFFFF;
+
+.heroText p {
+    color: #FFFFFF;
     line-height: 24px;
     font-size: 18px;
     font-weight: 400;
 
 }
 
-.heroButtons{
+.heroButtons {
     margin-top: 32px;
     display: inline-flex;
-    gap:16px;
+    gap: 16px;
 }
-.btn1{
+
+.btn1 {
     background-color: #30B868;
     color: #FFFFFF;
     border: none;
@@ -111,7 +125,8 @@ nav button {
     font-size: 16px;
     font-weight: 600;
 }
-.btn2{
+
+.btn2 {
     background-color: transparent;
     color: #FFFFFF;
     border: 1px solid #FFFFFF;
@@ -123,12 +138,7 @@ nav button {
     font-weight: 600;
 }
 
-/* #problemSection{
-    background-color: #30B868;
-
-} */
-#problemSection h1{
-    /* background-color: #222222; */
+#problemSection h1 {
     display: flex;
     width: 1360px;
     height: 116px;
@@ -139,8 +149,8 @@ nav button {
     color: #001931;
 
 }
-#problemSection .note p{
-    /* background-color: blue; */
+
+#problemSection .note p {
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
@@ -151,8 +161,8 @@ nav button {
     margin-left: auto;
     margin-right: auto;
 }
-.cardContainer{
-    /* background-color: yellow; */
+
+.cardContainer {
     margin-top: 44px;
     margin-left: auto;
     margin-right: auto;
@@ -160,19 +170,19 @@ nav button {
     justify-content: center;
     gap: 24px;
 }
-.card{
+
+.card {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* background-color: #234df2; */
     height: 300px;
     padding: 24px;
     border-radius: 8px;
     gap: 16px;
 }
 
-.card img{
+.card img {
     background-color: orangered;
     border-radius: 50px;
     width: 50px;
@@ -180,16 +190,17 @@ nav button {
     border: none;
     padding: 15px;
 }
-.card h2{
+
+.card h2 {
     text-align: center;
     font-size: 24px;
     font-weight: 600;
     width: 275px;
-    /* height was not consistent for each card in the card title */
     min-height: 30px;
     color: #001931;
 }
-.card p{
+
+.card p {
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
@@ -199,63 +210,71 @@ nav button {
     color: #627382;
 }
 
-.solutionContent{
+.solutionContent {
     display: flex;
     margin: 120px;
-    gap:60px;
+    gap: 60px;
 }
-.solutionContent img{
+
+.solutionContent img {
     width: 600px;
     height: 600px;
     border-radius: 12px;
 }
-.solutionText{
-    margin-top:102px;
+
+.solutionText {
+    margin-top: 102px;
     width: 700px;
     display: flex;
     flex-direction: column;
-    gap:24px;
+    gap: 24px;
 }
-.solutionText h6{
+
+.solutionText h6 {
     height: 20px;
-    color: #30B868 ; 
+    color: #30B868;
     font-weight: medium;
     font-size: 16px;
     line-height: 20px;
 }
-.solutionText h1{
+
+.solutionText h1 {
     height: 116px;
     font-size: 48px;
     font-weight: 700;
     color: #001931;
 }
-div1{
+
+div1 {
     height: 60px;
 }
 
-.div1 p{
-font-size: 16px;
-line-height: 20px;
-color: #627382;
+.div1 p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
 }
-#solutionSection .list{
+
+#solutionSection .list {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
-.list div{
+
+.list div {
     display: inline-flex;
     align-items: center;
     gap: 5px;
 
 }
-.list img{
+
+.list img {
     width: 20px;
     height: 20px;
 }
 
 
-.list p{
+.list p {
     font-size: 16px;
     font-weight: medium;
     color: #001931;
@@ -263,26 +282,32 @@ color: #627382;
     display: inline-flex;
     align-items: center;
 }
-#finalSection{
+
+#finalSection {
     margin: 0 120px 120px 120px;
-    height: 506px;
+    /* height: 506px; */
+    /* not looking good with height or maybe it was wrong*/
 }
-#finalSection .container{
-    margin:80px 40px;
+
+#finalSection .container {
+    margin: 80px 40px;
     text-align: center;
 }
-#finalSection h2{
+
+#finalSection h2 {
     font-size: 40px;
     font-weight: bold;
     color: #001931;
     margin-bottom: 16px;
 }
-#finalSection p{
+
+#finalSection p {
     color: #627382;
     font-size: 16px;
     line-height: 24px;
 }
-#finalSection button{
+
+#finalSection button {
     margin-top: 24px;
     margin-bottom: 16px;
     padding: 12px 16px;
@@ -294,17 +319,62 @@ color: #627382;
     align-items: center;
     justify-content: center;
 }
-#finalSection img{
+
+#finalSection img {
     height: 20px;
     width: 20px;
     margin-left: 10px;
 
 }
 
+footer {
+    background-color: #001931;
+    padding: 120px 120px 30px 120px;
 
+}
 
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
 
+}
 
+.footerContent p {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: medium;
+    line-height: 28px;
+    margin-bottom: 10px;
 
+}
 
+.socialLinks {
+    display: flex;
+    gap: 16px;
+}
 
+.footerContent .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.copy {
+    text-align: center;
+    color: #FAFAFA;
+    font-size: 16px;
+    margin-top: 30px;
+
+}
+
+hr {
+    color: #E5E7EB;
+    opacity: 0.2;
+    height: 1px;
+    width: 1360px;
+}
